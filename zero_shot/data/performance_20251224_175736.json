@@ -1,0 +1,3844 @@
+{
+  "model_params": {
+    "method": "zero-shot"
+  },
+  "metrics": {
+    "I-Involvement": {
+      "mae": 1.95,
+      "rmse": 2.6019223662515376,
+      "pearson_r": 0.2989992308735054,
+      "spearman_r": 0.26036161570988714,
+      "exact_match": 0.28,
+      "within_1_acc": 0.48,
+      "level_accuracy": 0.59
+    },
+    "You-Involvement": {
+      "mae": 1.7533333333333334,
+      "rmse": 2.3622023622035435,
+      "pearson_r": 0.25938043193651755,
+      "spearman_r": 0.25009777823616497,
+      "exact_match": 0.27666666666666667,
+      "within_1_acc": 0.5033333333333333,
+      "level_accuracy": 0.5866666666666667
+    },
+    "We-Involvement": {
+      "mae": 1.8566666666666667,
+      "rmse": 2.4186773244895647,
+      "pearson_r": 0.2684332897505191,
+      "spearman_r": 0.27483713504734664,
+      "exact_match": 0.19666666666666666,
+      "within_1_acc": 0.49333333333333335,
+      "level_accuracy": 0.5233333333333333
+    }
+  },
+  "summary": {
+    "avg_mae": 1.8533333333333333,
+    "avg_pearson": 0.2756043175201807,
+    "avg_within_1": 0.49222222222222217,
+    "avg_level_acc": 0.5666666666666668
+  },
+  "num_samples": 100,
+  "timestamp": "2025-12-24T17:57:36.953534",
+  "detailed_predictions": [
+    {
+      "tweet_id": 324860504998813700,
+      "tweet_text": "RT @JumaaneWilliams: My prayers for the victims, families and residents of West, Texas.",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          7
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 327540002521243650,
+      "tweet_text": "Today, our thoughts and prayers are with the victims of the explosion in West, and their families. May God bless West http://t.co/UVaClVVemQ",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          5,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323945198805733400,
+      "tweet_text": "RT @ashleytisdale: So terrible &amp; scary to see such violence. Keeping everyone in #Boston in my thoughts today #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324746319245750300,
+      "tweet_text": "this week has been so draining. but with time, it will get better #bostonstrong #prayfortexas",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324769991914319900,
+      "tweet_text": "Watching Texas explosion coverage on fox. Death and destruction unbelievable! Hoping for the best!",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          3,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 214949230027096060,
+      "tweet_text": "RT @dbouwman: Pretty smoke free day Fort Collins, but the smoke is settling in now... closing windows! #highparkfire",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          6,
+          7
+        ],
+        "You-Involvement": [
+          6,
+          6,
+          6
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 323886004593385500,
+      "tweet_text": "Boston hasn't seen a tragedy like this since the Boston Tea Party.",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          7,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 218042692813332480,
+      "tweet_text": "Thinking of those affected by the Colorado #wildfires! Looks like an image out of the movies! #sosad http://t.co/nlkQZ18M",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          2,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 324747980211105800,
+      "tweet_text": "@wilsonchandler you see the video of the explosion in Texas?",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          4,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 325420784287891460,
+      "tweet_text": "RT @Honest_Southern: Hey Dzhokhar Tsarnaev, I have one word for you: America \ud83c\uddfa\ud83c\uddf8",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          7,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 396323215934386200,
+      "tweet_text": "@piersmorgan so gun control again today? #LAXshooting",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 219410585383747600,
+      "tweet_text": "RT @MmaGeneration: UFC Heavyweight Shane Carwin on the Colorado Fires + Getting Back to the Octagon http://t.co/HJb2Peyn @ShaneCarwin",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          5
+        ],
+        "You-Involvement": [
+          5,
+          6,
+          3
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 324902435447525400,
+      "tweet_text": "RT @PKTKD2951: My thoughts and prayers go to the families affected by the explosion in Texas #prayfortexas",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 407145052931387400,
+      "tweet_text": "#mta #metronorth #derailment http://t.co/H7gp5fDBI0",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 323978186989899800,
+      "tweet_text": "RT @JoshScobee10: Terrorists are cowards, plain and simple. Enjoy burning in hell for eternity. So sad. #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          5,
+          4,
+          5
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 380105306157895700,
+      "tweet_text": "Aftermath of our day. #ColoradoFlood @jujub_14 carrieramz http://t.co/gd3ioHwyxP",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 324738656248148000,
+      "tweet_text": "RT @kristahakk: #PrayForTexas \ud83d\udc95",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          6,
+          6,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323953608372650000,
+      "tweet_text": "RT @RobertoLuongo_1: R.I.P to those who died in Boston! For every RT this gets, we will donate $2 to the city and victims. #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 379174413935317000,
+      "tweet_text": "Wow, Ms Bennett just claimed Colorado flooding down to climate change #Murnaghan",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 218490111803924480,
+      "tweet_text": "RT @seanhfitz: So, the fires in Colorado are God's wrath for what this time?",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          7,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 323895659868586000,
+      "tweet_text": "Some people are evil, how could you sleep knowing you ended someone's life?! #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          5
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          2,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 323895156543721500,
+      "tweet_text": "RT @HuntsmanAbby: Heartbreaking to hear Newtown families were in VIP section right by the Boston Marathon explosion.",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          7,
+          3,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 379971549811712000,
+      "tweet_text": "Sending our thoughts and prayers to those affected by the Colorado flooding",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          4
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          4
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 407208319791935500,
+      "tweet_text": "RT @leahhouston12: Too many deaths the past week, Glasgow crash, the scots monument death, New York derailment, Paul walkers crash, r.i.p\ud83d\ude14\u2764",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 407640433767219200,
+      "tweet_text": "RIP to Paul Walker and RIP to deaths in the Metro North derailment",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          6,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 325427449066319900,
+      "tweet_text": "So glad the standoff in #watertown is over. Kudos to all of the law enforcement officers involved. #ripseancollier #PrayForBoston",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          5
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          2,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          5,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 217982991090200580,
+      "tweet_text": "Praying @ryansutter @tristasutter and kids are safe in Colorado during these crazy wildfires",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          7,
+          6
+        ],
+        "You-Involvement": [
+          7,
+          7,
+          7
+        ],
+        "We-Involvement": [
+          4,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 217870634083029000,
+      "tweet_text": "I love going to Colorado&lt;3 It's so beautiful. I wish these fires would go away\ud83d\ude1e",
+      "human_scores": {
+        "I-Involvement": [
+          7,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          3,
+          2,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 396332363699208200,
+      "tweet_text": "RT @pascaljosh: Better shot of the rifle. #LAX http://t.co/hOYpBaZs32",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          2,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 323906191753375740,
+      "tweet_text": "\u201c@SorryNotSoorry: #PrayForBoston. This is so extremely heartbreaking. http://t.co/ss5CQ3buLV\u201d my heart goes out to all the victims",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          4,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          4,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 379388977775513600,
+      "tweet_text": "Amen. #boulderflood #hope #love http://t.co/qhfG21EXXT",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "tweet_id": 329065672229404700,
+      "tweet_text": "RT @runnersworld: Race director Dave McGillivray completed his #bostonmarathon today http://t.co/fnHGmqXK9k",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 323894560960954400,
+      "tweet_text": "RT @FellowshipLR: Praying God's healing &amp; comfort to all those injured &amp; affected by the incidents at the #BostonMarathon today.",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          3,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 326107215691915260,
+      "tweet_text": "RT @JonathonDaluz: What's the world coming too, Shooting at TD Bank, Boston Bomb, Texas Explosion?",
+      "human_scores": {
+        "I-Involvement": [
+          7,
+          5,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 333963193238032400,
+      "tweet_text": "@ArmchairArab @LibyanBentBladi I am sorry I am just comparing to what happened after Boston explosions.",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 408689550836256800,
+      "tweet_text": "[HBR] New York\u2019s Train Derailment is a Reminder of the Importance of Sleep Health Policy http://t.co/TGNGHNReiW",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 396370116645900300,
+      "tweet_text": "RT @Jydawg11: I guess the TSA and FBI is having trouble finding patsies to shoot shit up so their just doing it themselves now! #LAXShooting",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 396324151243587600,
+      "tweet_text": "Wow another shooting in an airport in LA",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          3,
+          5
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 407169941922906100,
+      "tweet_text": "Prayers for those who were involved in the metro north derailment \ud83d\ude4f",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 217772252467441660,
+      "tweet_text": "Holy shit now there's a fire in Boulder?",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 217926992950071300,
+      "tweet_text": "RT @EdelmanDiana: I want to apologize to the state of Colorado for being so hot and starting all these fires #mybad",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 323892195365113860,
+      "tweet_text": "Those poor people were raising money for their chosen charities. How could the human race do that to them! #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324565569913368600,
+      "tweet_text": "RT @LoveForBoston: This is literally the saddest thing I have ever read #prayforboston http://t.co/Q3H4Pd69cM",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          4
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          4
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          4,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 218014460936331260,
+      "tweet_text": "Please continue to pray for Rachel &amp; Jesse and all of those in the Colorado fire. http://t.co/GrvmmMm3",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          5,
+          7,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          7
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 217823733371502600,
+      "tweet_text": "Lord please bring rain upon Colorado \ud83d\udca6\ud83d\udca6 so these fire would stop and folks would stop losing there homes! Everyone please pray for Denver",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          3,
+          2
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323893734699839500,
+      "tweet_text": "My heart goes out to the people in Boston. another senseless tragedy. More dead/critically wounded. .and for what??. Evil begets evil..",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          5
+        ],
+        "You-Involvement": [
+          5,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324708251763605500,
+      "tweet_text": "Man, that explosion in Waco, pray and hope everyone's not severely injured. :s",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 324715566625611800,
+      "tweet_text": "Sending hope and prayers to the people in Waco Texas.",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          5,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          3,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 327493189932032000,
+      "tweet_text": "West Texas looks like I'm driving through Red Dead Redemption.",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          6,
+          3
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 324876560781946900,
+      "tweet_text": "Donated lots of clothes and shoes just now! Everything little thing helps! #prayforwest",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          6,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 407181136528302100,
+      "tweet_text": "\u201c@CardinalDolan: Let us pray for those killed and injured in the terrible Metro North train derailment this morning in the Bronx.\u201d",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324737305686446100,
+      "tweet_text": "#prayfortexas omfg what is happening to this world",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          5,
+          3,
+          4
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 396327716426756100,
+      "tweet_text": "My thoughts go out to everyone involved in the #LAXShooting. Hug your family and friends a little tighter today.",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          7
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324881010946879500,
+      "tweet_text": "#prayforwest this absolutely breaks my heart. But god is big enough. I know he will help everyone through this. #prayers",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 378055482704814100,
+      "tweet_text": "Damnit @twitter take care of the spammers using #BoulderFlood",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 323926781600088060,
+      "tweet_text": "Our hearts go out to all those affected by the #Boston tragedy. @Google &amp; @RedCross tools: http://t.co/wtur54aVT0 http://t.co/TgK0uII55z",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          7,
+          7,
+          7
+        ],
+        "We-Involvement": [
+          1,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 407154162963869700,
+      "tweet_text": "Going ro sleep with a heavy heart, and waking up the same way with the added news from the train derailment in nyc :-(:-(:-(",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          5,
+          3,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 323915851252248600,
+      "tweet_text": "Sickened and saddened by the news of events in Boston today. #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324212908647137300,
+      "tweet_text": "I asked my dad how hes doing when I woke up this morning and his exact words were physically great but emotionally not good #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          6
+        ],
+        "You-Involvement": [
+          7,
+          7,
+          7
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          6,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "tweet_id": 323935627416588300,
+      "tweet_text": "RT @paramore: All our prayers and love to everyone affected by the explosions in Boston today. Unbelievable :(",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          3,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 323887661318303740,
+      "tweet_text": "RT @ItsJennaMarbles: #PrayForBoston http://t.co/JeZrZhsETU",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 396325912871850000,
+      "tweet_text": "crazy shooting at #LAX",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 324852984611758100,
+      "tweet_text": "#prayfortexas  #prayforthemiddleeast  #prayforboston  #prayforisrael",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 337542079603437600,
+      "tweet_text": "What's worse- security service saying they knew about terrorists and investigated them, or that they'd never heard of them? #london #boston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323895546634977300,
+      "tweet_text": "Praying for the families injured in the Boston Marathon bomb blast xx",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          4,
+          3,
+          4
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324761653616980000,
+      "tweet_text": "Remember them in your thoughts and prayers. #pray for West Texas #pray for Boston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323909148746059800,
+      "tweet_text": "RT @CarsonRapsilver: God is good, even when the world is not. #John16 #PrayForBoston http://t.co/knPQNq7jXQ",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          1,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323893747274367000,
+      "tweet_text": "RT @ashleycolley: The fake Boston Marathon account has been suspended. THANK YOU TWITTER!",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          4,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323907823354408960,
+      "tweet_text": "RT @TanyaBurr: So shocked and saddened by the explosions in Boston...why do people do this? #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          5,
+          3
+        ],
+        "You-Involvement": [
+          6,
+          3,
+          5
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 214570425664024580,
+      "tweet_text": "RT @brianlphoto: Sunset in my hometown Fort Collins. High Park Fire smoke. #HighParkFire http://t.co/snllB0fB",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          7
+        ],
+        "You-Involvement": [
+          4,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          4
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 220258552017719300,
+      "tweet_text": "@LetMeBeYourLove you'l be fine love . hopefully , you wont be in Colorado Springs cus they got that wild fire down there .",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          7,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          6,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 327172673799077900,
+      "tweet_text": "Why are we all donating money to the Boston Marathon Fund instead of the 15 families of people that died in the Texas Fertilizer explosion?",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          7,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          6,
+          2,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 325357509021937660,
+      "tweet_text": "RT @camilacabello97: I see humans but no humanity #prayforvenezuela #prayfortexas #prayforboston #prayfortheworld",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 407299168420372500,
+      "tweet_text": "FDNY hard at work after today's train derailment in NYC. Everyone is in our thoughts &amp; prayers! http://t.co/1zKy3BUGkF",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          5
+        ],
+        "You-Involvement": [
+          3,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          5,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 396354694161113100,
+      "tweet_text": "Praying for everyone at #LAX &amp; hope everyone there is safe! #LAXShooting",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324731165217009660,
+      "tweet_text": "RT @BaddieKayla: R.I.P. to all of the victims of the fertilizer plant explosion in Texas. #PrayForTexas",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          3,
+          4,
+          5
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 324727180661764100,
+      "tweet_text": "RT @pushingyayo: #prayforboston #prayfortexas #prayforhumanity",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 323884641419415550,
+      "tweet_text": "RT @lauren11708: explosion in Boston , whyyy . when is this unnecessary violence ever going to end , on some real shit.. smh",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          2,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          2,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 217876086686621700,
+      "tweet_text": "Just found out one of my friends in Colorado might have lost her apartment to the fires there. Will know more tomorrow. That sucks :(",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          4,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          7,
+          6
+        ],
+        "You-Involvement": [
+          7,
+          7,
+          6
+        ],
+        "We-Involvement": [
+          4,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 326848399540379650,
+      "tweet_text": "Check it out! I donated to One Man Marathon for One Fund Boston   http://t.co/6gVuRl99Fi",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          3
+        ],
+        "We-Involvement": [
+          2,
+          3,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          4
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324713976980189200,
+      "tweet_text": "RT @SafeFamiliesDFW: Please join us in praying for those injured &amp; effected by the fertilizer plant explosion in Waco #prayforwaco",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          5,
+          6,
+          7
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          5,
+          3,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 325003803394986000,
+      "tweet_text": "Reading this article makes me glad to be a rangers fan #RangersNation #prayforwest http://t.co/btwmXz4qKu",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          2,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          2,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 325091690815844350,
+      "tweet_text": "RT @southerrnnbelle: It breaks my heart for all the people in Boston #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 325146330034999300,
+      "tweet_text": "People in Boston needs Prayers yet again tonight ! ... #Marathon #Boston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323945341391097860,
+      "tweet_text": "Our thoughts and prayers are with those affected by the explosions at the #bostonmarathon",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          4,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323874558325162000,
+      "tweet_text": "Holy shit RT @theoriginalwak: What the fuck just happened?  #bostonmarathon http://t.co/dPh7lvZoxl",
+      "human_scores": {
+        "I-Involvement": [
+          7,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 407178598945021950,
+      "tweet_text": "They would if it were #RedEye. RT @JoeDunn8: No, @foxnews, please return to NYC derailment coverage. @HowardKurtz",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          5,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          3,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 323936105537867800,
+      "tweet_text": "McIntyre tweets he's OK after Boston marathon run http://t.co/VQqyVt6vfg",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          7,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 217762114847252480,
+      "tweet_text": "Yikes, that smoke is too close for comfort. Stay safe, #Boulder! #flagstafffire",
+      "human_scores": {
+        "I-Involvement": [
+          7,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          3,
+          2,
+          4
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 323949581861806100,
+      "tweet_text": "RT @kylieminogue: Sending love #PrayForBoston",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 396400118468837400,
+      "tweet_text": "Cheers in the terminal. First flight boarding since the lock down. Happy travelers. #LAX",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "tweet_id": 324790242009833500,
+      "tweet_text": "Another explosion. What's happening with the world? #PrayForTexas",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 379428379050520600,
+      "tweet_text": "Floods Transform Colorado's 'Gore-Tex Vortex'",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "tweet_id": 396371823715037200,
+      "tweet_text": "RT @adamlambert: Tragic news about LAX. Thoughts and prayers w victims.",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "tweet_id": 218182514152452100,
+      "tweet_text": "Lord God, I pray that you bring a cool refreshing rain upon Colorado Springs, in the name of Jesus Christ, amen.",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          4,
+          4,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          7,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "tweet_id": 325227305276416000,
+      "tweet_text": "Somewhere right now, a film producer is having the screenplay written for the Boston bombing. Only in America.",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          7,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 379438298587881500,
+      "tweet_text": "Good night all, keeping #boulderflood victims in my prayers. Going to help send supplies there and suggest if you're able to do the same.",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          6,
+          2,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          1,
+          6
+        ],
+        "We-Involvement": [
+          7,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "tweet_id": 324883661738618900,
+      "tweet_text": "Guys please remember if you can to donate blood today! We are gathering up items for displaced families.  #prayforwest",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          2,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          5
+        ],
+        "We-Involvement": [
+          6,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "tweet_id": 324580778442891260,
+      "tweet_text": "Tick-tock-tick-tock. Waiting for 'no terrorist can be #ROP follower' cry to reach its crescendo. ID'd #boston",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          2,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          7,
+          2
+        ]
+      }
+    },
+    {
+      "tweet_id": 327242408288997400,
+      "tweet_text": "When the Boston Marathon was bombed it really got me thinking, I wondered why? Dear Lord why weren't any of my #exgf's in that race!?",
+      "human_scores": {
+        "I-Involvement": [
+          7,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          7,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          4,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          1,
+          2,
+          3
+        ],
+        "We-Involvement": [
+          1,
+          2,
+          1
+        ]
+      }
+    }
+  ]
+}

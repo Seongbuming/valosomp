@@ -1,0 +1,5 @@
+,Within-worker mean,Between-worker mean,Difference,P-value,Within-bin mean,Between-bin mean
+Worker Similarity,0.3445279,0.21477401,0.12975389,< 0.0001,,
+I Involvement,,,0.014228389,< 0.0001,0.23695026,0.22272187
+You Involvement,,,0.03176108,< 0.0001,0.24871203,0.21695095
+We Involvement,,,0.005373895,< 0.0001,0.23116359,0.2257897

@@ -1,0 +1,512 @@
+{
+  "detailed_predictions": [
+    {
+      "tweet_id": 324860504998813700,
+      "tweet_text": "RT @JumaaneWilliams: My prayers for the victims, families and residents of West, Texas.",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          4,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          3,
+          2,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          5
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "Failed to parse",
+        "You-Involvement": "Moderate relational involvement. The tweet expresses concern for those affected by the disaster but does so in a general way, without mentioning any personal connections.",
+        "We-Involvement": "Moderate-high collective involvement -  identifies specific community groups affected, expresses concern for their well-being, and implies shared empathy through the act of prayer."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Step-by-step reasoning:\n\n1. **Personal pronouns check:** Uses \"my\" - indicating a personal statement, but it's within a retweet.\n2. **Personal impact:**  Expresses sympathy and concern (\"prayers\"), but doesn't mention any direct personal consequences or connection to the event.\n3. **Emotional response:** Shows empathy and concern for the victims, but the language is relatively general and doesn't convey a deeply personal emotional response.\n\nBased on this analysis:\n{\n    \"scores\": [3, 2, 3],\n   ",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\nStep-by-step reasoning:\n\n1. **Mentions of close others:**  The tweet doesn't explicitly mention family, friends, or close others by name. It uses broader terms like \"victims, families, and residents.\"\n2. **Personal connection:** While the original tweeter (@JumaaneWilliams) expresses concern, there's no indication they have a direct personal connection to anyone in West, Texas.\n3. **Concern for specific person:** The tweet expresses concern for groups affected",
+        "We-Involvement": "Step-by-step reasoning:\n1. **Collective language:** Uses \"victims, families, and residents\" - clearly identifies affected groups within the community.\n2. **Community orientation:**  Expresses concern for the well-being of the community (\"victims, families, and residents\") directly impacted by the event in West, Texas.\n3. **Shared responsibility:** While not explicitly stated, the act of offering prayers implies a shared sense of empathy and concern for the community's suffering.\n\nBased on this a"
+      }
+    },
+    {
+      "tweet_id": 327540002521243650,
+      "tweet_text": "Today, our thoughts and prayers are with the victims of the explosion in West, and their families. May God bless West http://t.co/UVaClVVemQ",
+      "human_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          7,
+          5,
+          7
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          4
+        ],
+        "We-Involvement": [
+          6,
+          6,
+          5
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet expresses sympathy for the victims but maintains a formal and collective tone. It lacks personal pronouns, direct expressions of personal impact, or deeply personal emotional responses.",
+        "You-Involvement": "Moderate to high relational involvement. The tweet expresses concern for a group of people directly affected by the event and their families, demonstrating empathy and a sense of shared experience.",
+        "We-Involvement": "The tweet demonstrates a strong sense of collective involvement. It uses inclusive language, focuses on the community of West, and implies a shared responsibility to offer support through prayer."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal Pronouns Check:** The tweet uses \"our\" which suggests a collective \"we\" rather than a singular \"I\". This indicates a less personal focus. \n2. **Personal Impact:** There's no mention of direct personal consequences or experiences related to the explosion. The tweet expresses sympathy and well-wishes but doesn't convey personal feelings of distress or impact.\n3. **Emotional Response:** The language is formal and empathe",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\nStep-by-step reasoning:\n\n1. **Mentions of close others:**  The tweet explicitly mentions \"victims\" and \"their families,\" indicating a concern for individuals directly affected and their loved ones. \n2. **Personal connection:** While not mentioning specific individuals, the tweet expresses concern for a group directly impacted by the event, suggesting a sense of shared humanity and empathy.\n3. **Concern for specific person:** The tweet focuses on the collective",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:** The tweet uses \"our thoughts and prayers\" which implies a collective \"we\" feeling empathy and concern. It also directly addresses \"the victims of the explosion in West, and their families,\" highlighting a group affected by the tragedy. \n2. **Community orientation:** The tweet expresses concern for the community of West and its families, indicating an understanding that the explosion has impacted a specif"
+      }
+    },
+    {
+      "tweet_id": 323945198805733400,
+      "tweet_text": "RT @ashleytisdale: So terrible &amp; scary to see such violence. Keeping everyone in #Boston in my thoughts today #prayforboston",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "You-Involvement": [
+          6,
+          5,
+          6
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          6
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          5,
+          4,
+          5
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          6,
+          5,
+          5
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet shows moderate to strong individual involvement. The use of 'my' and expressions of concern suggest personal impact and emotional response, though not as intensely personal as some examples.",
+        "You-Involvement": "Moderate relational involvement. The tweet expresses concern for a group affected by the violence but doesn't mention any personal connections or specific individuals.",
+        "We-Involvement": "Moderate to high collective involvement. The tweet focuses on a shared experience of fear and concern for the community of Boston, expressing solidarity and empathy."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"my\" - indicating a personal connection to the situation.\n\n2. **Personal impact:**  While not explicitly stated, the language \"so terrible & scary\" suggests the speaker is personally affected by the violence.  \n\n3. **Emotional response:**  \"Keeping everyone in my thoughts\" and \"pray for Boston\" are expressions of concern and sympathy, indicating an emotional response.\n\n**Based on this analysis:*",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\nStep-by-step reasoning:\n\n1. **Mentions of close others:** No explicit mention of family, friends, or known individuals directly affected by the violence. \n2. **Personal connection:**  The speaker expresses concern for \"everyone in #Boston,\" indicating a general sense of empathy but not a specific personal connection.\n3. **Concern for specific person:**  While the tweet expresses concern, it's directed towards a broad group (\"everyone in #Boston\") rather than s",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\nStep-by-step reasoning:\n\n1. **Collective language:** Uses \"everyone\" and \"keeping everyone in my thoughts\" indicating a concern for a group impacted by the violence. \n2. **Community orientation:**  The tweet expresses concern about violence in Boston, implying a shared experience of fear and concern within the community.\n3. **Shared responsibility:** While not explicitly stated, the act of sending thoughts and prayers suggests a shared sense of empathy and con"
+      }
+    },
+    {
+      "tweet_id": 324746319245750300,
+      "tweet_text": "this week has been so draining. but with time, it will get better #bostonstrong #prayfortexas",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          7,
+          7
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          2,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          6
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "Failed to parse",
+        "You-Involvement": "The tweet expresses a personal feeling of being drained, likely related to the events, but doesn't explicitly mention any personal connections to the situations in Boston or Texas. The hashtags show general concern but not for specific individuals.",
+        "We-Involvement": "Moderate to high collective involvement. While the initial sentiment is personal, the hashtags clearly signal a focus on community strength and shared concern for other affected communities."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"this week\" and \"it\" -  indicates a personal experience, likely referring to the speaker's week.\n2. **Personal impact:** \"So draining\" expresses a clear personal negative emotional consequence stemming from the events of the week.\n3. **Emotional response:**  \"Draining\" conveys a feeling of exhaustion and emotional toll, indicating a personal response to the events.\n\n**Based on this analysis:**\n{",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:**  The tweet doesn't explicitly mention family, friends, or close others being affected. \n2. **Personal connection:**  While the tweet expresses personal feeling (\"this week has been so draining\"), it doesn't directly link this feeling to a specific personal connection to the events in Boston or Texas.\n3. **Concern for specific person:** The hashtags #bostonstrong and #prayfortexas indicate a general ",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:**  Uses \"this week\" which could imply a shared experience, but it's vague. \"Boston strong\" clearly indicates a collective identity and resilience. \n2. **Community orientation:**  \"Boston strong\" directly addresses a community facing hardship. \"Pray for Texas\" extends concern to another community affected by a separate crisis.\n3. **Shared responsibility:**  \"Boston strong\" implies a collective spirit of res"
+      }
+    },
+    {
+      "tweet_id": 324769991914319900,
+      "tweet_text": "Watching Texas explosion coverage on fox. Death and destruction unbelievable! Hoping for the best!",
+      "human_scores": {
+        "I-Involvement": [
+          5,
+          3,
+          5
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          1,
+          1,
+          1
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          3
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          4
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "Failed to parse",
+        "You-Involvement": "The tweet expresses concern about the tragedy but does so in a general way, without mentioning any personal connections to the event or individuals affected.",
+        "We-Involvement": "Moderate collective involvement -  the tweet expresses concern for a community impacted by the event and a shared desire for a positive outcome, but doesn't explicitly call for collective action or emphasize shared responsibility."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"watching\" and \"hoping\" - indicates personal engagement with the event.\n2. **Personal impact:**  While not explicitly stated, the use of \"unbelievable\" suggests a strong emotional reaction and potential distress.\n3. **Emotional response:**  Expresses a desire for the best (\"hoping for the best\") indicating concern and empathy.\n\n**Based on this analysis:**\n\n{\n    \"scores\": [5, 4, 5],\n    \"comment",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:** No explicit mention of family, friends, or close others personally affected by the explosion.\n2. **Personal connection:**  The tweet doesn't indicate any direct personal connection to the event or individuals involved. \n3. **Concern for specific person:** While expressing hope for the best, the concern is general and not directed towards any specific individuals.\n\n**Based on this analysis:**\n\n{\n    ",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:** The tweet uses \"coverage\" suggesting a shared experience of the event through media, and \"unbelievable\" implies a collective reaction to the scale of the tragedy. \n2. **Community orientation:** While not explicitly stated, the focus on \"Texas explosion\" implies concern for the community affected by the event. \"Hoping for the best\" suggests a shared desire for a positive outcome for that community.\n3. **S"
+      }
+    },
+    {
+      "tweet_id": 214949230027096060,
+      "tweet_text": "RT @dbouwman: Pretty smoke free day Fort Collins, but the smoke is settling in now... closing windows! #highparkfire",
+      "human_scores": {
+        "I-Involvement": [
+          6,
+          6,
+          7
+        ],
+        "You-Involvement": [
+          6,
+          6,
+          6
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          2
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          4
+        ],
+        "You-Involvement": [
+          2,
+          6,
+          2
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet demonstrates moderate to strong individual involvement. The speaker directly addresses a personal consequence of the fire (closing windows) and expresses a personal observation about the smoke. While the emotional response is implied rather than explicitly stated, the action of closing windows suggests a level of concern.",
+        "You-Involvement": "Moderate relational involvement. While the tweet doesn't mention specific people, the speaker's action of closing windows indicates a personal impact from the fire, suggesting a level of concern for their own well-being within their immediate environment.",
+        "We-Involvement": "Moderate to high collective involvement. The tweet focuses on a specific community (Fort Collins) and the shared experience of smoke from the fire. While it doesn't explicitly call for collective action, it implies a shared understanding of the problem and individual responses to mitigate it."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"I\" in \"closing windows!\" indicating a direct personal action. \n2. **Personal impact:**  The tweet describes a personal consequence of the smoke (\"closing windows!\") and expresses a personal observation (\"Pretty smoke free day...but the smoke is settling in now\").\n3. **Emotional response:** While not explicitly stated, the act of closing windows suggests a desire to protect oneself from the smok",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\nStep-by-step reasoning:\n\n1. **Mentions of close others:** No explicit mention of family, friends, or close others. \n2. **Personal connection:** The speaker is directly affected (\"closing windows!\") due to the smoke from the fire.\n3. **Concern for specific person:**  No concern for specific individuals is expressed, only a personal action taken due to the situation.\n\nBased on this analysis:\n{\n    \"scores\": [2, 6, 2],\n    \"comment\": \"Moderate relational involvem",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:** The tweet mentions \"Fort Collins\" indicating a specific community affected by the smoke.  \n2. **Community orientation:** The tweet expresses concern about the impact of the fire on the local community (\"Pretty smoke free day... but the smoke is settling in now...\").\n3. **Shared responsibility:** While not explicitly stated, the act of closing windows suggests a shared understanding of the need to protect"
+      }
+    },
+    {
+      "tweet_id": 323886004593385500,
+      "tweet_text": "Boston hasn't seen a tragedy like this since the Boston Tea Party.",
+      "human_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          5,
+          5,
+          5
+        ],
+        "We-Involvement": [
+          5,
+          5,
+          5
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          2,
+          3
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          5,
+          6,
+          4
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet focuses on a historical comparison to emphasize the severity of the event but lacks personal pronouns or direct expressions of personal impact or emotional response.",
+        "You-Involvement": "Very low relational involvement. The tweet makes a historical comparison about the severity of the event but doesn't express concern for any individuals or personal connections to the tragedy.",
+        "We-Involvement": "Moderate to high collective involvement. The tweet uses 'Boston' to refer to the city as a collective and draws a connection to a shared historical event, suggesting a sense of collective memory and potential shared response. However, it doesn't explicitly call for collective action or responsibility."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:**  The tweet uses \"Boston\" as the subject, not personal pronouns like \"I\" or \"my.\" This indicates a lack of direct personal involvement.\n2. **Personal impact:** The tweet compares the current event to a historical event, suggesting a sense of shock or gravity, but doesn't explicitly state personal consequences for the speaker.\n3. **Emotional response:** The tweet expresses a sense of comparison and per",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:**  No mention of family, friends, or close others.\n2. **Personal connection:**  The tweet focuses on a historical comparison, not a personal connection to the tragedy.\n3. **Concern for specific person:**  No expression of concern for any specific individuals.\n\n**Based on this analysis:**\n{\n    \"scores\": [1, 1, 1],\n    \"comment\": \"Very low relational involvement. The tweet makes a historical comparison",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:**  The tweet uses \"Boston\" which refers to the city as a collective entity. \n2. **Community orientation:**  The comparison to the Boston Tea Party, a historical event significant to Boston's identity, implies a shared historical memory and understanding of tragedy within the city.\n3. **Shared responsibility:** The tweet doesn't explicitly mention shared responsibility, but the comparison to a past tragedy "
+      }
+    },
+    {
+      "tweet_id": 218042692813332480,
+      "tweet_text": "Thinking of those affected by the Colorado #wildfires! Looks like an image out of the movies! #sosad http://t.co/nlkQZ18M",
+      "human_scores": {
+        "I-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "You-Involvement": [
+          3,
+          3,
+          3
+        ],
+        "We-Involvement": [
+          3,
+          3,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          4,
+          4,
+          4
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "Failed to parse",
+        "You-Involvement": "Low relational involvement. The tweet expresses general concern for those affected by the wildfires but lacks any mention of personal connections or specific individuals.",
+        "We-Involvement": "Failed to parse"
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"those\" -  a less direct personal pronoun than \"I\" or \"my,\" indicating a more distanced connection.\n2. **Personal impact:**  No mention of direct personal consequences or feelings. The speaker expresses sadness (\"#sosad\") but doesn't link it to personal experience.\n3. **Emotional response:**  Expresses sadness (\"#sosad\") but the tone is more observational than deeply personal. The comparison to ",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:** No explicit mention of family, friends, or known individuals affected by the wildfires. \n2. **Personal connection:**  The tweet expresses concern for \"those affected\" in a general sense, but doesn't indicate any personal connection to the victims.\n3. **Concern for specific person:**  The tweet expresses sadness (\"#sosad\") but doesn't focus on any specific individuals or their stories.\n\n**Based on th",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:**  The tweet uses \"those affected\" which refers to a group impacted by the wildfires. \n2. **Community orientation:** While expressing sadness, the tweet doesn't explicitly mention community support or shared responsibility. The focus is more on empathy for the victims.\n3. **Shared responsibility:** There's no indication of shared responsibility or a call to collective action.\n\n**Based on this analysis:**\n{"
+      }
+    },
+    {
+      "tweet_id": 324747980211105800,
+      "tweet_text": "@wilsonchandler you see the video of the explosion in Texas?",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          1,
+          2
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          3,
+          4,
+          3
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "You-Involvement": [
+          6,
+          6,
+          5
+        ],
+        "We-Involvement": [
+          3,
+          4,
+          2
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet primarily focuses on sharing information with another person and doesn't express any personal involvement, impact, or emotional response to the explosion.",
+        "You-Involvement": "The tweet shows a high level of relational involvement. It directly addresses a known individual (@wilsonchandler) and implies a desire to share information about the explosion, suggesting a personal connection and potential concern.",
+        "We-Involvement": "Limited collective involvement. While it hints at shared knowledge of the event, it doesn't explicitly express concern for a community or call for collective action. The focus is more on individual awareness."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** Uses \"you\" -  directly addressing another individual. No explicit use of \"I\" to indicate personal experience.\n2. **Personal impact:** No indication of personal consequences or emotional response to the explosion. The tweet focuses on sharing information rather than personal feelings.\n3. **Emotional response:**  The tone is neutral, simply asking if the recipient has seen the video. There's no express",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:**  The tweet directly addresses \"@wilsonchandler\", indicating a personal connection. \n2. **Personal connection:**  The question implies the speaker wants to share information about the explosion with someone they know personally.\n3. **Concern for specific person:** While not explicitly stated, the question suggests a desire to engage wilsonchandler in a discussion about the event, potentially out of c",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:**  The tweet uses \"you\" which could imply the recipient is part of a group aware of the event, but it's not explicitly stated. \n2. **Community orientation:** There's a suggestion of shared awareness of the explosion in Texas, implying a potential collective concern. However, it's not directly stated.\n3. **Shared responsibility:**  The tweet doesn't imply any shared responsibility or call to action. It's mo"
+      }
+    },
+    {
+      "tweet_id": 325420784287891460,
+      "tweet_text": "RT @Honest_Southern: Hey Dzhokhar Tsarnaev, I have one word for you: America \ud83c\uddfa\ud83c\uddf8",
+      "human_scores": {
+        "I-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "You-Involvement": [
+          2,
+          2,
+          2
+        ],
+        "We-Involvement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "model_scores": {
+        "I-Involvement": [
+          5,
+          6,
+          6
+        ],
+        "You-Involvement": [
+          1,
+          1,
+          1
+        ],
+        "We-Involvement": [
+          2,
+          2,
+          1
+        ]
+      },
+      "model_comments": {
+        "I-Involvement": "The tweet demonstrates moderate to strong individual involvement through the retweeting of a message expressing a strong personal opinion and emotional response to a significant event.",
+        "You-Involvement": "Very low relational involvement. The tweet addresses a specific individual involved in a crisis, but does not express concern for them or indicate any personal connection.",
+        "We-Involvement": "Very low collective involvement. The tweet focuses on a singular, confrontational message to an individual rather than expressing any sense of community, shared responsibility, or collective experience related to the tragedy."
+      },
+      "model_reasoning": {
+        "I-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Personal pronouns check:** The tweet uses \"I\" indirectly through the retweet of another user's message.  While not directly stated, the implication is that the retweeter identifies with the sentiment expressed. \n2. **Personal impact:** The tweet expresses a strong opinion and potentially emotional response (\"one word\") directed at a specific individual involved in a highly charged event (the Boston Marathon bombing). This sugg",
+        "You-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Mentions of close others:** No explicit mention of family, friends, or close others. The tweet addresses Dzhokhar Tsarnaev directly, but this is not indicative of a personal relationship.\n2. **Personal connection:**  No indication of a personal connection to Dzhokhar Tsarnaev. The tweet seems more like a public statement than a message to someone known personally.\n3. **Concern for specific person:** The tweet expresses a senti",
+        "We-Involvement": "Here's an evaluation of the tweet:\n\n**Step-by-step reasoning:**\n\n1. **Collective language:** The tweet uses \"America \ud83c\uddfa\ud83c\uddf8\" which could be interpreted as a reference to the collective identity of the nation. However, the context of the retweet (Dzhokhar Tsarnaev, the Boston Marathon bomber) suggests a more individualistic and confrontational tone rather than a sense of shared national concern. \n2. **Community orientation:** The tweet lacks any indication of concern for the community impacted by Tsa"
+      }
+    }
+  ],
+  "metrics": {
+    "I-Involvement": {
+      "mae": 1.5333333333333334,
+      "pearson_r": 0.4155871477843035,
+      "within_1_acc": 70.0,
+      "level_acc_2level": 70.0
+    },
+    "You-Involvement": {
+      "mae": 2.433333333333333,
+      "pearson_r": -0.29064677111704224,
+      "within_1_acc": 40.0,
+      "level_acc_2level": 46.666666666666664
+    },
+    "We-Involvement": {
+      "mae": 1.8333333333333333,
+      "pearson_r": 0.09014118620347555,
+      "within_1_acc": 53.333333333333336,
+      "level_acc_2level": 70.0
+    },
+    "average": {
+      "mae": 1.9333333333333333,
+      "pearson_r": 0.0716938542902456,
+      "within_1_acc": 54.44444444444445,
+      "level_acc_2level": 62.22222222222222
+    }
+  },
+  "num_examples": 4,
+  "timestamp": "2025-12-27T16:26:29.920043"
+}

@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test and temporary data
+data/samples/test_*.csv
+data/samples/mturk_sample*.csv
+data/evaluations/test_*.csv
+data/evaluations/test_*.json
+data/evaluations/mturk_sample*.csv
+data/evaluations/mturk_sample*.json
+
+# Temporary analysis results
+results/k_comparison*.csv
+figures/k_comparison*.png
+
+# Keep evaluation outputs for reference
+# (comment out to ignore all evaluations)
+# data/evaluations/*.csv
+# data/evaluations/*.json

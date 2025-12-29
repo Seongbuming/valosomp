@@ -1,0 +1,140 @@
+{
+  "I-Involvement": [
+    {
+      "tweet": "I close my eyes & I can see a better day, I close my eyes and pray.",
+      "reasoning_steps": [
+        "Personal pronouns check: Uses 'I' three times - strong first-person perspective",
+        "Personal impact: Expresses personal emotional state (closing eyes, praying) and personal vision",
+        "Emotional response: Shows personal coping mechanism and hope - deeply personal",
+        "Individual vs collective: Entirely focused on individual experience, no mention of others"
+      ],
+      "scores": [7, 6, 7],
+      "comment": "The tweet demonstrates strong individual involvement through repeated use of 'I', expression of personal emotional responses (prayer, hope), and focus entirely on the speaker's individual perspective and coping mechanisms."
+    },
+    {
+      "tweet": "I can't deal with the world anymore, people are just too cruel to one another.",
+      "reasoning_steps": [
+        "Personal pronouns check: Uses 'I' - indicates personal statement",
+        "Personal impact: Expresses inability to cope ('can't deal') - clear personal consequence",
+        "Emotional response: Shows personal distress and overwhelm from witnessing cruelty",
+        "Individual vs collective: While mentioning 'the world' and 'people', the focus is on speaker's personal inability to cope"
+      ],
+      "scores": [7, 6, 7],
+      "comment": "Strong individual involvement shown through personal declaration of inability to cope with the situation, expressing direct personal emotional impact and consequences."
+    },
+    {
+      "tweet": "My thoughts & prayers are with the flood victims in Colorado.",
+      "reasoning_steps": [
+        "Personal pronouns check: Uses 'my' - but in formulaic expression",
+        "Personal impact: Generic prayer statement, no specific personal consequences mentioned",
+        "Emotional response: Sympathetic but formulaic - not deeply personal",
+        "Individual vs collective: Directed outward to victims, not about personal experience"
+      ],
+      "scores": [2, 2, 2],
+      "comment": "Minimal individual involvement despite use of 'my' - the tweet uses a formulaic expression of sympathy without indicating personal impact, consequences, or deep emotional response."
+    },
+    {
+      "tweet": "My thoughts and prayers go out to my fellow brothers and sisters in Boston. #PrayForBoston",
+      "reasoning_steps": [
+        "Personal pronouns check: Uses 'my' multiple times - but in standard formula",
+        "Personal impact: No mention of how this affects the speaker personally",
+        "Emotional response: Sympathetic expression but formulaic and generic",
+        "Individual vs collective: Focus is on 'fellow brothers and sisters' (collective), not individual experience"
+      ],
+      "scores": [4, 3, 4],
+      "comment": "Moderate individual involvement - uses personal pronouns but in formulaic way. Mixed between personal expression and collective solidarity, without clear personal consequences or deep individual emotional response."
+    }
+  ],
+  "You-Involvement": [
+    {
+      "tweet": "Just heard from my friend in Boston. She was running the marathon and is safe. Thank God.",
+      "reasoning_steps": [
+        "Mentions of close others: Explicitly mentions 'my friend' - personally connected individual",
+        "Personal connection: Friend was directly involved in the event (running the marathon)",
+        "Concern for specific person: Expresses relief about friend's safety ('Thank God')",
+        "Relational vs general: Specific named relationship (friend), not abstract concern"
+      ],
+      "scores": [7, 7, 7],
+      "comment": "Very high relational involvement - explicitly mentions a close personal friend who was directly at the crisis location, expresses concern and relief about their specific safety."
+    },
+    {
+      "tweet": "Everybody Keep @DJWhizlam & The Residents Of Colorado In Your Prayers #ColoradoFloods",
+      "reasoning_steps": [
+        "Mentions of close others: Mentions specific person (@DJWhizlam) - possibly personally known",
+        "Personal connection: Tags specific individual by name, suggesting personal connection",
+        "Concern for specific person: Asks others to pray for this person specifically",
+        "Relational vs general: Includes specific person plus general 'residents' - mixed"
+      ],
+      "scores": [6, 6, 6],
+      "comment": "High relational involvement shown by specifically naming an individual (@DJWhizlam) and requesting prayers, suggesting personal connection or concern for someone known to the speaker."
+    },
+    {
+      "tweet": "My thoughts & prayers are with the flood victims in Colorado.",
+      "reasoning_steps": [
+        "Mentions of close others: No specific mention of family, friends, or known individuals",
+        "Personal connection: Generic reference to 'victims' - no personal relationship indicated",
+        "Concern for specific person: Concern is for abstract group, not specific individuals",
+        "Relational vs general: Entirely general/abstract concern"
+      ],
+      "scores": [2, 2, 2],
+      "comment": "Minimal relational involvement - expresses concern for abstract 'victims' without mentioning any family, friends, or personally connected individuals."
+    },
+    {
+      "tweet": "Sad on many levels @NBCNews: CONFIRMED: Brown University student who was falsely named as Boston bombing suspect has been found dead.",
+      "reasoning_steps": [
+        "Mentions of close others: No mention of personal relationship to the student",
+        "Personal connection: No indication of knowing the person",
+        "Concern for specific person: General sadness about news event, not personal concern",
+        "Relational vs general: Impersonal reporting/reaction to news"
+      ],
+      "scores": [4, 4, 4],
+      "comment": "Neutral relational involvement - expresses sadness but in impersonal way, no indication of personal connection to those affected, more of a reaction to news than concern for close others."
+    }
+  ],
+  "We-Involvement": [
+    {
+      "tweet": "Everybody Keep @DJWhizlam & The Residents Of Colorado In Your Prayers #ColoradoFloods",
+      "reasoning_steps": [
+        "Collective language: Uses 'Everybody' and 'Residents' - clear group focus",
+        "Community orientation: Calls for collective action (everyone praying together)",
+        "Shared responsibility: Implies shared community responsibility to support affected residents",
+        "Collective vs individual: Entirely focused on collective response and community support"
+      ],
+      "scores": [6, 6, 7],
+      "comment": "Strong collective involvement - explicitly calls for community-wide action ('Everybody'), emphasizes collective support for 'Residents of Colorado', frames as shared community responsibility."
+    },
+    {
+      "tweet": "My thoughts & prayers are with the flood victims in Colorado.",
+      "reasoning_steps": [
+        "Collective language: Mentions 'victims' as a group affected together",
+        "Community orientation: Implies recognition of community suffering",
+        "Shared responsibility: Prayer suggests acknowledgment of collective tragedy",
+        "Collective vs individual: Directed at group of victims, but from individual perspective"
+      ],
+      "scores": [6, 6, 5],
+      "comment": "Moderate-high collective involvement - recognizes group of victims sharing common crisis, expresses solidarity, though from individual rather than collective 'we' perspective."
+    },
+    {
+      "tweet": "I can't deal with the world anymore, people are just too cruel to one another.",
+      "reasoning_steps": [
+        "Collective language: Mentions 'the world' and 'people' but not in solidarity sense",
+        "Community orientation: Commentary on society/humanity, but critical rather than supportive",
+        "Shared responsibility: No indication of shared community response or collective action",
+        "Collective vs individual: Focus is on speaker's individual reaction, not collective experience"
+      ],
+      "scores": [4, 4, 5],
+      "comment": "Moderate collective involvement - references broader society ('world', 'people') but from detached, critical individual perspective rather than expressing shared community experience or collective response."
+    },
+    {
+      "tweet": "All these #democrats running around raping & killing people in #Colorado. #FloodOfLiberals",
+      "reasoning_steps": [
+        "Collective language: Mentions political group but divisively, not in solidarity",
+        "Community orientation: Creates division rather than community solidarity",
+        "Shared responsibility: No sense of shared community response or support",
+        "Collective vs individual: Polarizing political attack, opposite of collective involvement"
+      ],
+      "scores": [2, 2, 1],
+      "comment": "Very low collective involvement - despite mentioning groups, the tweet is divisive and attacking rather than expressing community solidarity, shared consequences, or collective response to crisis."
+    }
+  ]
+}

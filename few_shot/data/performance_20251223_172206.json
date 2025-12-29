@@ -1,0 +1,42 @@
+{
+  "model_params": {
+    "k_shots": 4,
+    "temperature": 0.1,
+    "use_dimension_specific": true,
+    "gpu_id": "auto"
+  },
+  "metrics": {
+    "I-Involvement": {
+      "mae": 1.7233333333333334,
+      "rmse": 2.2752289262108696,
+      "pearson_r": 0.3024103238153381,
+      "spearman_r": 0.28760015322717203,
+      "exact_match": 0.24,
+      "within_1_acc": 0.51
+    },
+    "You-Involvement": {
+      "mae": 1.7966666666666666,
+      "rmse": 2.428305307548181,
+      "pearson_r": 0.3134948147749689,
+      "spearman_r": 0.30385954727257836,
+      "exact_match": 0.26666666666666666,
+      "within_1_acc": 0.5166666666666667
+    },
+    "We-Involvement": {
+      "mae": 1.92,
+      "rmse": 2.4276188608044165,
+      "pearson_r": 0.3140563499017459,
+      "spearman_r": 0.29375502759724387,
+      "exact_match": 0.17333333333333334,
+      "within_1_acc": 0.4666666666666667
+    }
+  },
+  "summary": {
+    "avg_mae": 1.8133333333333332,
+    "avg_pearson": 0.3099871628306843,
+    "avg_within_1": 0.4977777777777779
+  },
+  "num_samples": 100,
+  "use_train_val_split": true,
+  "timestamp": "2025-12-23T17:22:06.214058"
+}

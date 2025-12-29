@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Evaluation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .progress-container {
+            margin-bottom: 30px;
+        }
+        .progress-text {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #495057;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #007bff;
+            transition: width 0.3s ease;
+        }
+        .tweet-container {
+            margin-bottom: 30px;
+        }
+        .tweet-text {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .question-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+        }
+        .question-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        .question-description {
+            background-color: #e9ecef;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            color: #6c757d;
+            font-style: italic;
+        }
+        .scale-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .scale-table th {
+            padding: 8px 4px;
+            text-align: center;
+            font-size: 12px;
+            color: #6c757d;
+            border-bottom: 2px solid #dee2e6;
+            font-weight: normal;
+        }
+        .scale-table th.question-header {
+            text-align: left;
+            width: 40%;
+            font-weight: bold;
+            color: #495057;
+        }
+        .scale-table th.strongly-disagree {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .scale-table th.strongly-agree {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .scale-table td {
+            padding: 8px 4px;
+            text-align: center;
+            border-bottom: 1px solid #f1f3f4;
+            position: relative;
+        }
+        .scale-table td.question-cell {
+            text-align: left;
+            font-size: 14px;
+            color: #495057;
+            padding-right: 15px;
+        }
+        .scale-table input[type="radio"] {
+            transform: scale(1.2);
+            cursor: pointer;
+            margin-bottom: 3px;
+        }
+        .scale-number {
+            font-size: 11px;
+            color: #495057;
+            font-weight: bold;
+            display: block;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .completion-message {
+            text-align: center;
+            padding: 40px;
+            display: none;
+        }
+        .comment-section {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #dee2e6;
+        }
+        .comment-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+        .comment-textarea {
+            width: calc(100% - 22px);
+            min-height: 80px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            resize: vertical;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        .comment-counter {
+            font-size: 12px;
+            color: #6c757d;
+            text-align: right;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tweet Evaluation</h1>
+        
+        <div class="progress-container">
+            <div class="progress-text" id="progressText">1 of 10</div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+        
+        <div id="surveyContent">
+            <div class="tweet-container">
+                <div style="background-color: #ffffff; border: 2px solid #1da1f2; border-radius: 12px; padding: 24px; margin-bottom: 25px; box-shadow: 0 3px 10px rgba(29, 161, 242, 0.15);">
+                    <div style="color: #1da1f2; font-size: 15px; font-weight: 600; margin-bottom: 12px;">Tweet</div>
+                    <div class="tweet-text" id="tweetText" style="color: #14171a; font-size: 17px; line-height: 1.6; font-weight: 500;">
+                        Loading tweets...
+                    </div>
+                </div>
+
+                <div id="incidentContainer" style="background-color: #f8f9fa; padding: 18px; border-radius: 8px; display: none; border: 1px solid #e1e8ed;">
+                    <div id="incidentTitle" style="font-weight: 500; font-size: 15px; color: #495057; margin-bottom: 10px;">Context</div>
+                    <div id="incidentBackground" style="color: #6c757d; line-height: 1.5; font-size: 14px; margin-bottom: 12px;"></div>
+                    <div id="wikipediaLink" style="font-size: 13px;">
+                        <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: none;">
+                            Read more on Wikipedia →
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 25px 0; font-size: 16px; color: #495057; font-weight: 500;">
+                Please answer how much you agree with the following statements.
+            </div>
+            
+            <!-- I-Involvement Recognition (Individual) -->
+            <div class="question-section">
+                <div class="question-title">I-Involvement Recognition (Individual)</div>
+                
+                <table class="scale-table">
+                    <thead>
+                        <tr>
+                            <th class="question-header">Question</th>
+                            <th colspan="3" class="strongly-disagree">Strongly Disagree</th>
+                            <th>Neutral</th>
+                            <th colspan="3" class="strongly-agree">Strongly Agree</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="question-cell">The tweet expresses concern about the issue's impact on the self</td>
+                            <td><input type="radio" name="i-involvement-1" value="1" id="i1_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="2" id="i1_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="3" id="i1_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="4" id="i1_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="5" id="i1_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="6" id="i1_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="i-involvement-1" value="7" id="i1_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet indicates that the issue has personal consequences for the speaker</td>
+                            <td><input type="radio" name="i-involvement-2" value="1" id="i2_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="2" id="i2_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="3" id="i2_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="4" id="i2_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="5" id="i2_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="6" id="i2_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="i-involvement-2" value="7" id="i2_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet emphasizes individual experience or personal situation regarding the issue</td>
+                            <td><input type="radio" name="i-involvement-3" value="1" id="i3_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="2" id="i3_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="3" id="i3_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="4" id="i3_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="5" id="i3_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="6" id="i3_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="i-involvement-3" value="7" id="i3_7"><span class="scale-number">7</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="comment-section">
+                    <div class="comment-label">Comments on I-Involvement (20+ characters):</div>
+                    <textarea class="comment-textarea" name="i-involvement-comment" id="i-comment" placeholder="Please provide your comments on the individual involvement aspects..." maxlength="500" oninput="updateCharacterCount('i')"></textarea>
+                    <div class="comment-counter" id="i-counter">0/500 characters (minimum 20)</div>
+                </div>
+            </div>
+            
+            <!-- You-Involvement Recognition (Relational) -->
+            <div class="question-section">
+                <div class="question-title">You-Involvement Recognition (Relational)</div>
+                
+                <table class="scale-table">
+                    <thead>
+                        <tr>
+                            <th class="question-header">Question</th>
+                            <th colspan="3" class="strongly-disagree">Strongly Disagree</th>
+                            <th>Neutral</th>
+                            <th colspan="3" class="strongly-agree">Strongly Agree</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="question-cell">The tweet expresses concern about the issue's impact on family, friends, or close others</td>
+                            <td><input type="radio" name="you-involvement-1" value="1" id="y1_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="2" id="y1_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="3" id="y1_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="4" id="y1_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="5" id="y1_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="6" id="y1_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="you-involvement-1" value="7" id="y1_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet indicates consequences for someone the speaker cares about</td>
+                            <td><input type="radio" name="you-involvement-2" value="1" id="y2_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="2" id="y2_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="3" id="y2_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="4" id="y2_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="5" id="y2_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="6" id="y2_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="you-involvement-2" value="7" id="y2_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet emphasizes relational ties (support, loyalty, care) in relation to the issue</td>
+                            <td><input type="radio" name="you-involvement-3" value="1" id="y3_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="2" id="y3_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="3" id="y3_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="4" id="y3_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="5" id="y3_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="6" id="y3_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="you-involvement-3" value="7" id="y3_7"><span class="scale-number">7</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="comment-section">
+                    <div class="comment-label">Comments on You-Involvement (20+ characters):</div>
+                    <textarea class="comment-textarea" name="you-involvement-comment" id="you-comment" placeholder="Please provide your comments on the relational involvement aspects..." maxlength="500" oninput="updateCharacterCount('you')"></textarea>
+                    <div class="comment-counter" id="you-counter">0/500 characters (minimum 20)</div>
+                </div>
+            </div>
+            
+            <!-- We-Involvement Recognition (Collective) -->
+            <div class="question-section">
+                <div class="question-title">We-Involvement Recognition (Collective)</div>
+                
+                <table class="scale-table">
+                    <thead>
+                        <tr>
+                            <th class="question-header">Question</th>
+                            <th colspan="3" class="strongly-disagree">Strongly Disagree</th>
+                            <th>Neutral</th>
+                            <th colspan="3" class="strongly-agree">Strongly Agree</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="question-cell">The tweet expresses concern about the issue's impact on the community, group, or nation</td>
+                            <td><input type="radio" name="we-involvement-1" value="1" id="w1_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="2" id="w1_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="3" id="w1_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="4" id="w1_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="5" id="w1_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="6" id="w1_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="we-involvement-1" value="7" id="w1_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet indicates collective consequences (e.g., society, city, country, "us")</td>
+                            <td><input type="radio" name="we-involvement-2" value="1" id="w2_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="2" id="w2_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="3" id="w2_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="4" id="w2_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="5" id="w2_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="6" id="w2_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="we-involvement-2" value="7" id="w2_7"><span class="scale-number">7</span></td>
+                        </tr>
+                        <tr>
+                            <td class="question-cell">The tweet emphasizes shared responsibility, solidarity, or collective well-being regarding the issue</td>
+                            <td><input type="radio" name="we-involvement-3" value="1" id="w3_1"><span class="scale-number">1</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="2" id="w3_2"><span class="scale-number">2</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="3" id="w3_3"><span class="scale-number">3</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="4" id="w3_4"><span class="scale-number">4</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="5" id="w3_5"><span class="scale-number">5</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="6" id="w3_6"><span class="scale-number">6</span></td>
+                            <td><input type="radio" name="we-involvement-3" value="7" id="w3_7"><span class="scale-number">7</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="comment-section">
+                    <div class="comment-label">Comments on We-Involvement (20+ characters):</div>
+                    <textarea class="comment-textarea" name="we-involvement-comment" id="we-comment" placeholder="Please provide your comments on the collective involvement aspects..." maxlength="500" oninput="updateCharacterCount('we')"></textarea>
+                    <div class="comment-counter" id="we-counter">0/500 characters (minimum 20)</div>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button onclick="previousTweet()" id="prevBtn" disabled>Previous</button>
+                <button onclick="nextTweet()" id="nextBtn" disabled>Next</button>
+                <button onclick="finishSurvey()" id="finishBtn" style="display: none;">Complete Survey</button>
+            </div>
+        </div>
+        
+        <div id="completionMessage" class="completion-message">
+            <h2>Survey Completed!</h2>
+            <p>Thank you for your participation.</p>
+            <div id="completionCodeContainer" style="background-color: #e7f3ff; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">
+                <h3 style="color: #007bff; margin-bottom: 10px;">Your Completion Code</h3>
+                <div id="completionCodeDisplay" style="font-family: monospace; font-size: 24px; font-weight: bold; color: #2c3e50; background-color: white; padding: 15px; border-radius: 4px; border: 2px solid #007bff;">
+                    Loading...
+                </div>
+                <p style="margin-top: 15px; color: #555; font-size: 14px;">
+                    Please save this code for your records. You may need it for payment verification.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='survey.js') }}"></script>
+</body>
+</html>
