@@ -262,6 +262,7 @@ for idx, emotion in enumerate(emotion_cols):
     ax.legend(fontsize=8)
     ax.grid(alpha=0.3)
 
+fig.delaxes(axes[-1])
 plt.tight_layout()
 plt.savefig(f'{output_dir}/emotion_evolution.png', dpi=300, bbox_inches='tight')
 print(f"  저장: emotion_evolution.png")

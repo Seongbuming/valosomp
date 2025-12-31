@@ -1,0 +1,54 @@
+{
+  "human_time": {
+    "pilot": {
+      "n_tweets": 1241,
+      "time_seconds": 74460,
+      "time_minutes": 1241.0,
+      "time_hours": 20.683333333333334
+    },
+    "main": {
+      "n_tweets": 1831,
+      "time_seconds": 109860,
+      "time_minutes": 1831.0,
+      "time_hours": 30.516666666666666
+    },
+    "combined": {
+      "n_tweets": 3072,
+      "time_seconds": 184320,
+      "time_minutes": 3072.0,
+      "time_hours": 51.2
+    }
+  },
+  "llm_times": {
+    "0": {
+      "n_tweets": 3052,
+      "total_time_seconds": 54391.037588,
+      "avg_seconds_per_tweet": 17.821440887287025
+    },
+    "1": {
+      "n_tweets": 3052,
+      "total_time_seconds": 49634.621435,
+      "avg_seconds_per_tweet": 16.262982121559634
+    },
+    "4": {
+      "n_tweets": 3052,
+      "total_time_seconds": 35042.273231,
+      "avg_seconds_per_tweet": 11.481740901376147
+    },
+    "8": {
+      "n_tweets": 3052,
+      "total_time_seconds": 96867.487283,
+      "avg_seconds_per_tweet": 31.739019424311923
+    },
+    "16": {
+      "n_tweets": 3052,
+      "total_time_seconds": 95444.54561,
+      "avg_seconds_per_tweet": 31.272786897116646
+    }
+  },
+  "statistics": {
+    "avg_speedup": 3.218159669305392,
+    "std_speedup": 1.2430628974498454,
+    "time_saved_pct": 63.80734325611621
+  }
+}
