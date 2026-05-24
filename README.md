@@ -1,4 +1,4 @@
-# Decoding I, You, and We in Crisis Communication: A Three-Phase LLM-Based Validation of Self-Oriented Model of Digital Publics (SOMP)
+# Validation of Self-Oriented Model of Digital Publics (SOMP)
 
 This repository contains data, code, and analytical procedures for the following paper:
 Lee, H., Seo, S., Park, S., Tam, L., Kim, S., & Jang, Y. (2026).
