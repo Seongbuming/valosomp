@@ -1,5 +1,10 @@
 # Decoding I, You, and We in Crisis Communication: A Three-Phase LLM-Based Validation of Self-Oriented Model of Digital Publics (SOMP)
 
+This repository contains data, code, and analytical procedures for the following paper:
+Lee, H., Seo, S., Park, S., Tam, L., Kim, S., & Jang, Y. (2026).
+[Theory-driven LLM-assisted analysis in crisis communication: A case study of the self-oriented model of digital publics](https://doi.org/10.1016/j.pubrev.2026.102709).
+*Public Relations Review*, *52*(3), 102709.
+
 ## Authors
 
 - Dr. Hyelim Lee
@@ -42,6 +47,24 @@ All personally identifiable information has been anonymized:
 
 See `requirements.txt` for Python dependencies.
 
+## Citation
+
+```bibtex
+@article{lee2026theory,
+  title = {Theory-driven LLM-assisted analysis in crisis communication: A case study of the self-oriented model of digital publics},
+  journal = {Public Relations Review},
+  volume = {52},
+  number = {3},
+  pages = {102709},
+  year = {2026},
+  issn = {0363-8111},
+  doi = {https://doi.org/10.1016/j.pubrev.2026.102709},
+  url = {https://www.sciencedirect.com/science/article/pii/S0363811126000445},
+  author = {Hyelim Lee and Seongbum Seo and Somin Park and Lisa Tam and Soojin Kim and Yun Jang},
+  keywords = {Large Language Models, Human–AI Integration, Public Relations Methods, Crisis Communication, Self-Oriented Model of Digital Publics}
+}
+```
+
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+MIT License - see [LICENSE](LICENSE) file for details.
